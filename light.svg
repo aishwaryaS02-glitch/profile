@@ -1,0 +1,88 @@
+<svg width="1180" height="610" viewBox="0 0 1180 610" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="a" x1="0" y1="0" x2="1" y2="0">
+<stop stop-color="#2563EB"/><stop offset=".5" stop-color="#06B6D4"/><stop offset="1" stop-color="#10B981"/>
+<animateTransform attributeName="gradientTransform" type="translate" values="-1 0;1 0;-1 0" dur="8s" repeatCount="indefinite"/>
+</linearGradient>
+<radialGradient id="g1"><stop stop-color="#2563EB" stop-opacity=".22"/><stop offset="1" stop-color="#2563EB" stop-opacity="0"/></radialGradient>
+<radialGradient id="g2"><stop stop-color="#2563EB" stop-opacity=".20"/><stop offset="1" stop-color="#2563EB" stop-opacity="0"/></radialGradient>
+<filter id="shadow"><feDropShadow dx="0" dy="18" stdDeviation="24" flood-color="#000" flood-opacity=".45"/></filter>
+<filter id="glow"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<filter id="noise"><feTurbulence baseFrequency=".8" numOctaves="2"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="table" tableValues="0 .035"/></feComponentTransfer></filter>
+<clipPath id="c"><rect width="1180" height="610" rx="30"/></clipPath>
+</defs>
+<rect width="1180" height="610" rx="30" fill="#FFFFFF"/>
+<g clip-path="url(#c)">
+<circle cx="150" cy="100" r="330" fill="url(#g2)" filter="url(#glow)"><animateTransform attributeName="transform" type="translate" values="0 0;30 20;0 0" dur="10s" repeatCount="indefinite"/></circle>
+<circle cx="1000" cy="80" r="300" fill="url(#g1)" filter="url(#glow)"><animateTransform attributeName="transform" type="translate" values="0 0;-30 25;0 0" dur="11s" repeatCount="indefinite"/></circle>
+<rect width="1180" height="610" filter="url(#noise)"/>
+<g opacity=".7" fill="#06B6D4">
+<circle cx="85" cy="70" r="1.5"><animate attributeName="opacity" values=".1;1;.1" dur="3s" repeatCount="indefinite"/></circle>
+<circle cx="420" cy="500" r="1"><animate attributeName="opacity" values=".1;.8;.1" dur="4s" repeatCount="indefinite"/></circle>
+<circle cx="1080" cy="460" r="1.4"><animate attributeName="opacity" values=".1;.9;.1" dur="2.7s" repeatCount="indefinite"/></circle>
+</g>
+
+<!-- LEFT -->
+<rect x="50" y="50" width="390" height="510" rx="26" fill="#0F172A" fill-opacity=".72" stroke="#fff" stroke-opacity=".09" filter="url(#shadow)"/>
+<circle cx="78" cy="79" r="5" fill="#EF4444"/><circle cx="97" cy="79" r="5" fill="#F59E0B"/><circle cx="116" cy="79" r="5" fill="#10B981"/>
+<text x="145" y="83" fill="#64748B" font-family="monospace" font-size="11" letter-spacing="2">AISHWARYA.EXE</text>
+
+<g transform="translate(72 145)" fill="url(#a)" font-family="monospace" font-size="12" font-weight="700" filter="url(#glow)">
+<animateTransform attributeName="transform" type="translate" values="72 145;72 138;72 145" dur="5s" repeatCount="indefinite"/>
+<text y="0" opacity="0">             █████████</text>
+<text y="15" opacity="0">          ███████████████</text>
+<text y="30" opacity="0">        ███████████████████</text>
+<text y="45" opacity="0">      ███████████████████████</text>
+<text y="60" opacity="0">     ████████  █████  ████████</text>
+<text y="75" opacity="0">     ████████  █████  ████████</text>
+<text y="90" opacity="0">      ███████████████████████</text>
+<text y="105" opacity="0">        ███████████████████</text>
+<text y="120" opacity="0">          ███████████████</text>
+<text y="135" opacity="0">            █████████</text>
+<text y="165" opacity="0">             █████</text>
+<text y="180" opacity="0">          ███████████</text>
+<animate attributeName="opacity" values="0;1" begin="0s" dur=".1s" fill="freeze"/>
+</g>
+<rect x="60" y="110" width="370" height="2" fill="#06B6D4" opacity=".12"><animate attributeName="y" values="110;535;110" dur="4.5s" repeatCount="indefinite"/></rect>
+<text x="245" y="405" text-anchor="middle" fill="#475569" font-family="monospace" font-size="11" letter-spacing="3">SYSTEM ONLINE</text>
+<text x="245" y="438" text-anchor="middle" fill="#0F172A" font-family="monospace" font-size="17" font-weight="700">&lt; BUILD / LEARN / SHIP / &gt;</text>
+<circle cx="190" cy="475" r="3" fill="#10B981" filter="url(#glow)"><animate attributeName="opacity" values=".2;1;.2" dur="1.4s" repeatCount="indefinite"/></circle>
+<text x="203" y="479" fill="#475569" font-family="monospace" font-size="10">MERN • AI • IoT</text>
+
+<!-- RIGHT -->
+<rect x="465" y="50" width="665" height="510" rx="26" fill="#0F172A" fill-opacity=".90" stroke="#fff" stroke-opacity=".09" filter="url(#shadow)"/>
+<line x1="465" y1="105" x2="1130" y2="105" stroke="#fff" stroke-opacity=".07"/>
+<circle cx="493" cy="78" r="5" fill="#EF4444"/><circle cx="512" cy="78" r="5" fill="#F59E0B"/><circle cx="531" cy="78" r="5" fill="#10B981"/>
+<text x="560" y="82" fill="#64748B" font-family="monospace" font-size="11">aishwarya@github:~</text>
+
+<text x="505" y="140" fill="#475569" font-family="monospace" font-size="13">$ whoami</text>
+<text x="505" y="176" fill="#0F172A" font-family="Arial,sans-serif" font-size="28" font-weight="700">Hi 👋</text>
+<text x="505" y="211" fill="url(#a)" font-family="Arial,sans-serif" font-size="28" font-weight="700">I'm Aishwarya S</text>
+<text x="505" y="245" fill="#06B6D4" font-family="monospace" font-size="14">&gt; Junior MERN Stack Developer</text>
+<rect x="790" y="233" width="2" height="17" fill="#06B6D4"><animate attributeName="opacity" values="1;0;1" dur=".8s" repeatCount="indefinite"/></rect>
+
+<g font-family="monospace" font-size="11">
+<text x="505" y="282" fill="#64748B">LOCATION</text><text x="640" y="282" fill="#0F172A">Ramanagara, Karnataka</text>
+<text x="505" y="309" fill="#64748B">EDUCATION</text><text x="640" y="309" fill="#0F172A">B.E. Information Science &amp; Engineering</text>
+<text x="505" y="336" fill="#64748B">FOCUS</text><text x="640" y="336" fill="#0F172A">MERN • AI/ML • IoT</text>
+<text x="505" y="363" fill="#64748B">GITHUB</text><text x="640" y="363" fill="#06B6D4">aishwaryaS02-glitch</text>
+<text x="505" y="390" fill="#64748B">EMAIL</text><text x="640" y="390" fill="#0F172A">aishwaryakumar020406@gmail.com</text>
+</g>
+
+<text x="505" y="428" fill="#475569" font-family="monospace" font-size="10" letter-spacing="2">STACK</text>
+<g font-family="Arial,sans-serif" font-size="10" font-weight="600">
+<g fill="#0F172A" stroke="#06B6D4" stroke-opacity=".25">
+<rect x="505" y="442" width="55" height="25" rx="13"/><rect x="567" y="442" width="62" height="25" rx="13"/>
+<rect x="636" y="442" width="63" height="25" rx="13"/><rect x="706" y="442" width="74" height="25" rx="13"/>
+<rect x="787" y="442" width="63" height="25" rx="13"/><rect x="857" y="442" width="61" height="25" rx="13"/>
+<rect x="925" y="442" width="74" height="25" rx="13"/><rect x="1006" y="442" width="48" height="25" rx="13"/>
+</g>
+<g fill="#0F172A"><text x="532" y="458" text-anchor="middle">React</text><text x="598" y="458" text-anchor="middle">Next.js</text><text x="667" y="458" text-anchor="middle">Node.js</text><text x="743" y="458" text-anchor="middle">TypeScript</text><text x="818" y="458" text-anchor="middle">Python</text><text x="887" y="458" text-anchor="middle">Docker</text><text x="962" y="458" text-anchor="middle">MongoDB</text><text x="1030" y="458" text-anchor="middle">Git</text></g>
+</g>
+
+<g fill="#475569" font-family="monospace" font-size="11">
+<text x="505" y="510">◉ GitHub</text><text x="610" y="510">in LinkedIn</text><text x="735" y="510">𝕏 Twitter</text><text x="845" y="510">⌁ Portfolio</text>
+</g>
+<rect x="50" y="50" width="1080" height="510" rx="30" fill="none" stroke="url(#a)" stroke-opacity=".45" stroke-dasharray="90 900"><animate attributeName="stroke-dashoffset" values="0;-1980" dur="6s" repeatCount="indefinite"/></rect>
+</g>
+</svg>
